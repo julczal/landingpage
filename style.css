@@ -58,7 +58,7 @@ body {
 
 .wrapper1 button {
   padding: 15px;
-  background-color: #4234f8;
+  background-color: #4234F8;
   border-radius: 20px;
   border: none;
   color: white;
@@ -67,4 +67,42 @@ body {
 
 .blank {
   height: 70vh;
+}
+
+.wrapper2 {
+  padding: 50px;
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+
+.feature {
+  width: 80%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-flow: row;
+  text-align: center;
+}
+
+.feature img {
+  height: 70vh;
+}
+
+.feature .info {
+  margin-left: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-flow: column;
+  padding: 100px;
+}
+
+.feature .info h1 {
+  margin-bottom: 20px;
+  font-weight: bold;
+  font-size: 40px;
 }
